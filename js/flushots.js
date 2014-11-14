@@ -45,10 +45,10 @@ var Flushots = (function($) {
 				// Create the Google LatLng object
 				this.Events[i].latlng = new google.maps.LatLng(this.Events[i].data.latitude,this.Events[i].data.longitude);
 				// Create the markers for each event
-				var icon = 'img/red.png';
+				var icon = '/img/red.png';
 				if($.trim(this.Events[i].data.cost.toLowerCase()) === 'free')
 				{
-					icon = 'img/blue.png';
+					icon = '/img/blue.png';
 				}
 				this.Events[i].marker = new google.maps.Marker({
 					position: this.Events[i].latlng,
