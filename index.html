@@ -80,7 +80,7 @@
 				</div>
 				<button id="nav-go" class="btn btn-default btn-sm" type="button">Go</button>
 			</form>
-			<a id="nav-agency" class="navbar-text pull-right" data-toggle="modal" href="#modal-cdph"><small>Chicago Department of Public Health</small></a>
+			<a id="nav-agency" class="navbar-text pull-right" data-toggle="modal" href="#modal-cdph"><small>Cleveland Department of Public Health</small></a>
 		</div>
 	</nav>
 
@@ -93,7 +93,7 @@
 					<h4 class="modal-title">Notes</h4>
 				</div>
 				<div class="modal-body">
-					<small>Built by <a href="http://about.me/tomkompare" target="_blank">Tom Kompare</a> in partnership with the <a href="http://www.cityofchicago.org/city/en/depts/cdph.html" target="_blank">Chicago Department of Public Health (CDPH)</a>. This was not developed by CDPH and CDPH makes no representations as to the accuracy of the information provided by this map application. This map application is hosted by the <a href="http://www.smartchicagocollaborative.org/" target="_blank">Smart Chicago Collaborative</a>. <a href="https://github.com/tkompare/flushots2013" target="_blank">The code behind this web application</a> is free, open, and under a <a href="https://github.com/tkompare/flushots2013/blob/master/LICENSE.TXT"target="_blank">MIT License</a>. Feel free to <a href="https://github.com/tkompare/flushots2013/issues" target="_blank">send me comments</a>.</small>
+					<small>Built by <a href="http://about.me/tomkompare" target="_blank">Open Cleveland</a> in partnership with the <a href="http://www.cityofchicago.org/city/en/depts/cdph.html" target="_blank">Chicago Department of Public Health (CDPH)</a>. This was not developed by CDPH and CDPH makes no representations as to the accuracy of the information provided by this map application. This map application is hosted by the <a href="http://www.smartchicagocollaborative.org/" target="_blank">Smart Chicago Collaborative</a>. <a href="https://github.com/tkompare/flushots2013" target="_blank">The code behind this web application</a> is free, open, and under a <a href="https://github.com/tkompare/flushots2013/blob/master/LICENSE.TXT"target="_blank">MIT License</a>. Feel free to <a href="https://github.com/tkompare/flushots2013/issues" target="_blank">send me comments</a>.</small>
 					<p><button type="button" class="btn btn-default pull-right" data-dismiss="modal">Close</button><br></p>
 				</div>
 			</div>
@@ -116,13 +116,15 @@
 		</div>
 	</div>
 	
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>
 		window.jQuery
 			|| document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')
 	</script>
-	<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDRVus9kkg8mr6M7EZUmXZsdoM7JSFbvC8&sensor=true"></script>
-	<!-- All JS files below are included in 'main.min.js' file
+	<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAMW3WMh_kozxl8sKyRbIjWyzP5ktZ86UQ&sensor=true"></script>
+	 
+	<script src="js/main.min.js"></script>
+	
 	<script src="js/jquery-migrate-1.2.1.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/date.js"></script>
@@ -133,21 +135,7 @@
 	<script src="js/event.js"></script>
 	<script src="js/flushots.js"></script>
 	<script src="js/main.js"></script>
--->
-	<script src="js/main.min.js"></script>
-	<script type="text/javascript">
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-42855450-2']);
-		_gaq.push(['_trackPageview']);
-		// SCC Analytics
-		_gaq.push(['scc._setAccount', 'UA-37739534-17']);
-		_gaq.push(['scc._trackPageview']);
+
 	
-		(function() {
-			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
 </body>
 </html>
